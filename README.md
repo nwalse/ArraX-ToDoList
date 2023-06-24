@@ -24,6 +24,7 @@ Final Design:
 
 
 Video Demos:
+
 https://github.com/nwalse/ArraX-ToDoList/assets/117557589/58d4c202-f1a0-4b54-af97-ac0c5b68fbef
 https://github.com/nwalse/ArraX-ToDoList/assets/117557589/c7fd1c7a-2d34-41f1-90f6-e00c46f2902a
 https://github.com/nwalse/ArraX-ToDoList/assets/117557589/4dc076e8-f754-4cb2-86f6-f9ec7209bad2
