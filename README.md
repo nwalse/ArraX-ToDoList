@@ -1,4 +1,4 @@
-![ArraXB](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/ebd7bdd3-f4d9-46a5-8da9-fd799471944f)
+![ArraXBsmall](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/8ef7a8b6-352b-4b34-b0f7-2e0ccde88db9)
 
 # ArraX
 
@@ -15,9 +15,11 @@ Tools:
 XCode, Swift, Firebase, Figma
 
 First Design:
+
 ![ArraXOLD](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/44b183ee-7e02-40db-aab1-8a0c6c4e2ef8)
 
 Final Design:
+
 ![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/df4bf4dc-926b-4b9a-b607-e1795a9e6201)
 
 
