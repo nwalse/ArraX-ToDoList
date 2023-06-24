@@ -1,4 +1,4 @@
-![image-250x250](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/941dc1ec-fa75-458c-962f-0b30eec330ef)
+![ArraXBsmall](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/cad2685b-8f45-4f03-997d-b04646a144ed)
 
 # ArraX
 
