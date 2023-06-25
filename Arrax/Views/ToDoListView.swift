@@ -18,6 +18,8 @@ struct ToDoListView: View {
     @State private var ani = true
     let gradient = Gradient(colors: [Color("GradL"), Color("GradD")])
     
+    @StateObject var viewModel2 = NewItemViewVM()
+    
     @State private var newTitle = ""
     //@State var draggedItem : ToDoListItem
     //@StateObject var viewModel2 = NewItemViewVM()
@@ -73,6 +75,29 @@ struct ToDoListView: View {
                                     .transition(.slide)
                                     
                                     
+                                    HStack{
+                                        Spacer()
+                                        VStack{
+                                            Spacer()
+                                            Rectangle()
+                                                .foregroundColor(.clear)
+                                                .frame(width: 370, height: 6)
+                                                .background(Color("Module"))
+                                                .cornerRadius(30)
+                                            TextField("+ New Task", text: $viewModel2.title)
+                                                .font(Font.custom("Inter-Medium", size: 19))
+                                                .padding()
+                                                .background(Color("Module"))
+                                                .frame(width: 370)
+                                                .cornerRadius(20)
+                                                .onSubmit {
+                                                    performButtonAction()
+                                                }
+                                            Spacer()
+                                        }
+                                        Spacer()
+                                    }
+                                    
                                     
                                     
                                 }
@@ -93,10 +118,11 @@ struct ToDoListView: View {
                                     .frame(width: 370, height: 78)
                                     .background(Color("Module"))
                                     .cornerRadius(20)
+                                Spacer()
                                 Text("Home - To Do")
                                     .font(Font.custom("Inter-SemiBold", size: 25))
                                     .foregroundColor(Color("Text"))
-                                    .padding(.leading, -100)
+                                    .padding(.leading, -150)
                             }
                             //.padding(.top, 30)
                             //.padding(.bottom, 690)
@@ -196,6 +222,12 @@ struct ToDoListView: View {
         
         
     }
+    
+    func performButtonAction() {
+        viewModel2.saveNoDate()
+        viewModel2.title = ""
+    }
+     
 }
 
 /*

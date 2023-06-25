@@ -69,13 +69,16 @@ struct NewItemView: View {
                             .opacity(toggleD ? 1: 0)
                     }
                     
-                    
                     //button
                     HStack{
                         Spacer()
                         Button {
                             if viewModel.canSave {
-                                viewModel.save()
+                                if toggleD{
+                                    viewModel.save()
+                                }else{
+                                    viewModel.saveNoDate()
+                                }
                                 newItemPresented = false
                             } else {
                                 viewModel.showAlert = true

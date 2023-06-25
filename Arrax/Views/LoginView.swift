@@ -127,11 +127,9 @@ struct LoginView: View {
                             .font(.custom("Inter-Medium", size: 16))
                             .foregroundColor(Color("Text"))
                         
-                        Button{
-                            
-                        } label: {
+                        
+                        NavigationLink(destination: RegisterView()){
                             ZStack{
-                                
                                 Rectangle()
                                     .foregroundColor(.clear)
                                     .frame(width: 278, height: 34)
@@ -141,14 +139,14 @@ struct LoginView: View {
                                         RoundedRectangle(cornerRadius: 16)
                                             .stroke(.gray, lineWidth: 2)
                                     )
-                                NavigationLink("Sign Up",
-                                               destination: RegisterView())
+                                Text("Sign Up")
                                     .foregroundColor(.gray)
                                     .font(Font.custom("Inter-Medium", size: 16))
-                                    
+                                    .frame(width: 278, height: 34)
                             }
-                            .padding(.top, 10)
                         }
+                        .padding(.top, 10)
+                        
                     }
                     
                     

@@ -13,18 +13,40 @@ class LoginViewVM: ObservableObject{
     @Published var error = ""
     
     init(){}
-    
+    /*
     func login(){
         guard validate() else {
             return
         }
-        if error == "" {
-            error = "Incorrect password or email."
-        }
+        
         //Try to login
         Auth.auth().signIn(withEmail: email, password: password)
         
+        if error == "" {
+            error = "Incorrect password or email."
+        }
+        
     }
+    */
+    func login() {
+        guard validate() else {
+            return
+        }
+        
+        // Try to login
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (authResult, error) in
+            if let error = error {
+                // Authentication failed, set error message
+                self?.error = "Incorrect password or email."
+                print("Authentication failed: \(error.localizedDescription)")
+            } else {
+                // Authentication succeeded
+                self?.error = "" // Clear error message
+            }
+        }
+    }
+
+
     
     private func validate() -> Bool{
         guard !email.trimmingCharacters(in: .whitespaces).isEmpty,
@@ -43,3 +65,4 @@ class LoginViewVM: ObservableObject{
     }
     
 }
+
