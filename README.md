@@ -1,6 +1,6 @@
 ![ArraXBsmall](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/cad2685b-8f45-4f03-997d-b04646a144ed)
 
-# ArraX
+## ArraX
 
 Status: On Hold
 
