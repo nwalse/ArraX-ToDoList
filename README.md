@@ -16,14 +16,15 @@ XCode, Firebase, Figma
 ## Languages:
 Swift
 
-## Status: On Hold
+### Status: 
+On Hold
 
 ## Design:
 
 ![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/e0e90548-8fcb-4aae-8065-e2b26ced5267)
 
 
-Future Updates and Features: 
+### Future Updates and Features: 
  - multiple lists
  - lists inside of lists
  - reorder by date button
