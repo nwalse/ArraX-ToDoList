@@ -10,10 +10,10 @@ amount of steps to add time and date to reminders is too long. So, I decided to 
 to use. 
 
 
-## Tools:
+### Tools:
 XCode, Firebase, Figma
 
-## Languages:
+### Languages:
 Swift
 
 ### Status: 
