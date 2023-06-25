@@ -17,29 +17,15 @@ XCode, Firebase, Figma
 Languages:
 Swift
 
-First Design:
+Final Design adn Features:
 
-![ArraXOLD](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/44b183ee-7e02-40db-aab1-8a0c6c4e2ef8)
-
-Final Design:
-
-![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/df4bf4dc-926b-4b9a-b607-e1795a9e6201)
-
-
-Video Demos:
-
-https://github.com/nwalse/ArraX-ToDoList/assets/117557589/58d4c202-f1a0-4b54-af97-ac0c5b68fbef
-https://github.com/nwalse/ArraX-ToDoList/assets/117557589/c7fd1c7a-2d34-41f1-90f6-e00c46f2902a
-https://github.com/nwalse/ArraX-ToDoList/assets/117557589/4dc076e8-f754-4cb2-86f6-f9ec7209bad2
+![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/e0e90548-8fcb-4aae-8065-e2b26ced5267)
 
 
 Future Updates and Features: 
- - enter new below list
- - notifications based on time
- - new item by typing bar below list
  - multiple lists
  - lists inside of lists
- - reorder by date - needs button
+ - reorder by date button
  - drag to reorder
  - undo delete if clicked fast enough
  - first responder text field
