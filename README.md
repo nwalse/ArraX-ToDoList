@@ -17,7 +17,7 @@ XCode, Firebase, Figma
 Languages:
 Swift
 
-Final Design adn Features:
+Final Design:
 
 ![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/e0e90548-8fcb-4aae-8065-e2b26ced5267)
 
