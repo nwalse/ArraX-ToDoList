@@ -30,4 +30,6 @@ On Hold
  - drag to reorder
  - undo delete if clicked fast enough
  - first responder text field
+ - reccuring events
+ - edit options
 
