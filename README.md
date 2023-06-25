@@ -6,8 +6,7 @@
 After using to-do list apps such as Apple Reminders and Notion, I still haven't been able to stick to one. Many of the apps 
 have a set of great features but also have downsides. Notion is great for making lists within lists, but there are too many 
 edit options which makes it confusing and hard to get used to. Apple Reminders hs a great recurring event mechanic, but the 
-amount of steps to add time and date to reminders is too long. So, I decided to make my own app that is efficient and easy 
-to use. 
+amount of steps to add time and date to reminders is too long. So, I decided to make my own app.
 
 
 ### Tools:
