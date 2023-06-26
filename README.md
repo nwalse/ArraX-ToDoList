@@ -13,17 +13,14 @@ XCode, Firebase, Figma
 Swift
 
 ### Features:
- - notifications #8
- - date/time options #5
- - new item entry below list #3
+ - notifications 
+ - date/time options 
+ - new item entry below list 
  - delete delay with animation 
- - dark/light mode #6
- - firebase authentification #1 #2
+ - dark/light mode
+ - firebase authentification 
 
 ## Design:
-Image # Layout
- - 1 2 3 4
- - 5 6 7 8
 
 ![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/e0e90548-8fcb-4aae-8065-e2b26ced5267)
 
