@@ -21,9 +21,9 @@ Swift
  - firebase authentification #1 #2
 
 ## Design:
-Image # Layout:
-1 2 3 4
-5 6 7 8
+Image # Layout
+ - 1 2 3 4
+ - 5 6 7 8
 
 ![ArraXNEW](https://github.com/nwalse/ArraX-ToDoList/assets/117557589/e0e90548-8fcb-4aae-8065-e2b26ced5267)
 
