@@ -3,10 +3,7 @@
 # ArraX
 
 ## Why:
-After using to-do list apps such as Apple Reminders and Notion, I still haven't been able to stick to one. Many of the apps 
-have a set of great features but also have downsides. Notion is great for making lists within lists, but there are too many 
-edit options which makes it confusing and hard to get used to. Apple Reminders hs a great recurring event mechanic, but the 
-amount of steps to add time and date to reminders is too long. So, I decided to make my own app.
+After using to-do list apps such as Apple Reminders and Notion, I still haven't been able to stick to one. Many of the apps have a set of great features but also have downsides. Notion is great because it is so customizable, but it doesn't have enough reminder features and can be overwhelming to use. Apple Reminders has great reminder features, but they take too many steps to use. So, I decided to make my own app using the best parts of both apps.
 
 
 ### Tools:
@@ -14,6 +11,13 @@ XCode, Firebase, Figma
 
 ### Languages:
 Swift
+
+### Features:
+ - notifications
+ - date/time options
+ - new item entry below list
+ - delete delay with animation
+ - dark/light mode 
 
 ## Design:
 
@@ -25,8 +29,8 @@ Swift
  - lists inside of lists
  - reorder by date button
  - drag to reorder
- - undo delete if clicked fast enough
- - first responder text field
- - reccuring events
- - edit options
+ - undo delete if tapped before the task disappears
+ - first responder text fields
+ - recurring events options
+ - edit task options
 
